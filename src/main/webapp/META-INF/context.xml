@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context clearReferencesStopThreads="true">
+	<Resource name="jdbc/MysqlDB" auth="Container"
+			  type="javax.sql.DataSource" maxTotal="20" maxIdle="10" maxWaitMillis="100000"
+			  driverClassName="com.mysql.cj.jdbc.Driver" url="jdbc:mysql://localhost:3306/tw"
+			  username="tw" password="tw2324"/>
+</Context>
