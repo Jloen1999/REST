@@ -23,6 +23,10 @@ public class AplicacionListener implements ServletContextListener, ServletReques
         sce.getServletContext().log("Iniciando la aplicación");
         servletContext = sce.getServletContext();
 
+        //crearBD();
+    }
+
+    private static void crearBD() {
         // Crear Base de Datos
         DatabaseInitializer databaseInitializer = new DatabaseInitializer();
         databaseInitializer.crearBD();
